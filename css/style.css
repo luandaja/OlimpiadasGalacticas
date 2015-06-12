@@ -1,0 +1,107 @@
+@font-face {
+    font-family: MyriadPro-Bold;
+    src: url('../res/MyriadPro-Bold.otf');
+}
+.rank{
+
+  font-family: 'MyriadPro-Bold';
+
+  background-color: rgba(255,255,255,0.5);
+  margin: 15px 20px 15px 20px;
+  border-radius: 10%;
+
+}
+#nav-mobile{
+  background-color: red; 
+  background-image: url('../res/lateral.png');
+  background-repeat: repeat;
+  background-size: 250%;
+}
+body{
+  background-image: url('../res/fondo.png');
+  background-repeat: repeat;
+}
+nav.top-nav a.page-title {
+  line-height: 122px;
+  font-size: 48px;
+}
+nav.top-nav {
+  height: 140px;
+ 
+}
+
+header, main, footer {
+  padding-left: 280px;
+}
+
+.logo_sf{
+    margin-top: 10px;
+    max-width: 90%;
+    height: auto;
+}
+
+.cabezera
+{
+  background: rgb(0, 47, 135);
+}
+.detalleEquipo{
+  display: none;
+}
+
+.side{
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  height: 100px;
+
+}
+
+.prueba
+{
+	background: red;
+	transition-duration: 1s; 
+}
+
+.svg{
+  align-content: center;
+  margin-top: 40px;
+  
+}
+.svg img{
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.svg:hover img{
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+  
+}
+.svg img{
+  height: 200px;
+}
+#actMenu{
+	top: 30px;
+  left: -50px;
+  position: absolute;
+}
+
+
+
+@media only screen and (max-width : 359px) {
+  .logo_sf{
+    /*margin-top: 5%;*/
+      /*max-width: 90%;*/
+      height: auto;
+  }
+  nav.top-nav {
+  height: 100px;
+ 
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0; } }

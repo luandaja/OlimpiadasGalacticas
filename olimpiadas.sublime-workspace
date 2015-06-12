@@ -1,0 +1,368 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"equi",
+				"equipo2	(index.html)"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"tran",
+				"transform	(chincha.svg)"
+			],
+			[
+				"transi",
+				"transition"
+			],
+			[
+				"tra",
+				"transform	(chincha.svg)"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"read",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"content",
+				"contentChanged"
+			],
+			[
+				"tr",
+				"trigger	.trigger()"
+			],
+			[
+				"deta",
+				"detalleEquipo"
+			],
+			[
+				"on",
+				"on	.on()"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"fa",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"to",
+				"slideToggle"
+			],
+			[
+				"link",
+				"linkMasInfo	(page2.html)"
+			],
+			[
+				"eq",
+				"equipo"
+			],
+			[
+				"tog",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"ani",
+				"animate	.animate()"
+			],
+			[
+				"sl",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"transition-",
+				"transition-duration"
+			],
+			[
+				"con",
+				"contents	.contents()"
+			],
+			[
+				"ap",
+				"appendTo	.appendTo()"
+			],
+			[
+				"lo",
+				"load	.load()"
+			],
+			[
+				"bac",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta	",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Olimpiadas Galacticas",
+		"/E/Olimpiadas Galacticas/css",
+		"/E/Olimpiadas Galacticas/js",
+		"/E/Olimpiadas Galacticas/res"
+	],
+	"file_history":
+	[
+		"/E/Olimpiadas Galacticas/res/chincha.svg",
+		"/E/Olimpiadas Galacticas/js/init.js",
+		"/E/Olimpiadas Galacticas/index.html",
+		"/E/Olimpiadas Galacticas/css/style.css",
+		"/E/Olimpiadas Galacticas/res/chancay.svg",
+		"/C/Users/luand/Documents/demo.html",
+		"/C/Users/luand/Documents/chancay.svg",
+		"/E/Olimpiadas Galacticas/page2.html",
+		"/E/Olimpiadas Galacticas/page3.html",
+		"/E/Olimpiadas Galacticas/js/init2.js",
+		"/C/Users/luand/Downloads/parallax-template/parallax-template/index.html",
+		"/C/Users/luand/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/luand/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/luand/Documents/Visual Studio 2015/Projects/proyectoFinanzas/CompraInteligente/CompraInteligente/Views/Simuladors/Cronograma.cshtml",
+		"/C/Users/luand/Documents/Olimpiadas Galacticas/index.html",
+		"/C/Users/luand/Documents/Olimpiadas Galacticas/js/init.js",
+		"/C/Users/luand/Documents/Olimpiadas Galacticas/css/style.css",
+		"/C/Users/luand/Documents/Olimpiadas Galacticas/page.html",
+		"/C/Users/luand/Documents/Olimpiadas Galacticas/init.js"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2s",
+			"transition",
+			"30",
+			"bold",
+			"MyriadPro",
+			"l4 svg",
+			"svg",
+			"prueba",
+			"</h5>",
+			"<h5",
+			"<a href=\"#\">",
+			"<img src=\"background",
+			".jpg",
+			"commen",
+			"button",
+			"<button>test</button>",
+			"Equipo",
+			"=",
+			"                ",
+			"equipo",
+			"\" 	",
+			"id",
+			"class",
+			"prueba",
+			"test",
+			">",
+			"waves-teal\">",
+			"\" c",
+			"a href=",
+			"test",
+			"l12",
+			"m5",
+			"l4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "olimpiadas.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
