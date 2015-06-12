@@ -11,7 +11,7 @@
       }
   	);
       
-      $('#nav-mobile').css('width', tam+'px');      
+    $('#nav-mobile').css('width', tam+'px');      
       //$('body, footer, main').css('padding-left', tam+'px');
 
       //$('.prueba').load('page2.html #ejemploDeContenido');
@@ -24,18 +24,42 @@
     	$('#mainPage').slideToggle();
   		$('.detalleEquipo').slideToggle();
   		//$('.detalleEquipo').load('page2.html #'+equipo);
-        $('.detalleEquipo').load('page3.html');
+        $('.detalleEquipo').load('puente_piedra.html');
     });
     $('.logo').click(function() {
         $('.detalleEquipo').css('display', 'none');;
       
-      $('#mainPage').fadeIn( function() { '300'
+      $('#mainPage').fadeIn( function() { '300',
         $('#mainPage').css('display', 'block');
 
       });
 
     });
-    
+    $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop());
+      console.log(pos);
+      var pos = $('#nav_bar').position().top;
+
+    if ($(window).scrollTop() > pos) {
+      
+      $('#nav_barf').css('visibility', 'visible');;
+      //$('#nav_bar').css('display', 'none');;
+
+     };
+
+      if ($(window).scrollTop() < pos) {
+      
+      $('#nav_barf').css('visibility', 'hidden');
+      //$('#nav_bar').css('display', 'block');
+
+     };
+
+    });
+
+
   	$('.parallax').parallax();
   	
   });

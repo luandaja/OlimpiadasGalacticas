@@ -1,0 +1,17 @@
+body 
+{
+
+  background-image: url('../res/fondo_equipos.svg');
+  background-size: 100%;
+}
+#nav_barf{
+	top: 0px;
+	/*display: none;*/
+	visibility: hidden;
+}
+#nav_barf nav{
+	top: 0px;
+}
+#nav_bar{
+	padding: 0 15% 0 15%;
+	}
