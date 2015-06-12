@@ -1,8 +1,9 @@
-body 
+.detalleEquipo
 {
 
   background-image: url('../res/fondo_equipos.svg');
   background-size: 100%;
+
 }
 #nav_barf{
 	top: 0px;
@@ -10,8 +11,18 @@ body
 	visibility: hidden;
 }
 #nav_barf nav{
+	width: 70%;
 	top: 0px;
+
+}
+#nav_barf{
+	padding: 0 0 0 7.5%;
 }
 #nav_bar{
 	padding: 0 15% 0 15%;
+	}
+
+#nav_barf nav ,#nav_bar nav{
+	border-radius: 40%; 
+	background: rgba(200,200,200,0.5);
 	}
