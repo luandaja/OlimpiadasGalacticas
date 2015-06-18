@@ -1,3 +1,5 @@
 $(function() {
-	$('.parallax').parallax();
+	$('.button-collapse2').sideNav({
+		edge: 'right' // Choose the horizontal origin
+	});
 });
