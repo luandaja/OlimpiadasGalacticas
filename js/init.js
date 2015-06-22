@@ -24,7 +24,8 @@
     	$('#mainPage').slideToggle();
   		$('.detalleEquipo').slideToggle();
   		//$('.detalleEquipo').load('page2.html #'+equipo);
-        $('.detalleEquipo').load('puente_piedra.html');
+        var equipo = this.id;
+        $('.detalleEquipo').load('res/'+equipo+'/'+equipo+'.html');
     });
     $('.logo').click(function() {
         $('.detalleEquipo').css('display', 'none');;
