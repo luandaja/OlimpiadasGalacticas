@@ -40,7 +40,8 @@
       //.log to determine when you want the
       //nav bar to stick.
       console.log($(window).scrollTop());
-       var pos = $('#prev-nav').position().top;
+       var aux = $('#prev-nav').position().top;
+       var pos = aux - 400;
        var pos2 = $('#prim').position().top ;
        var scroll = $(window).scrollTop();
        console.log(pos+'-'+pos2);
@@ -56,7 +57,7 @@
     //
       };
     //
-       if ($(window).scrollTop() <pos - tam - pos2) {
+       if ($(window).scrollTop() <pos - 100 - tam - pos2) {
          $('#nav2').css('top', pos-pos2-tam);
          $('#nav2').removeClass('navbar-fixed');
          console.log('2');

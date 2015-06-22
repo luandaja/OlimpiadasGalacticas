@@ -1,10 +1,10 @@
 @font-face {
-    font-family: MyriadPro-Bold;
+    font-family: MyriadPro;
     src: url('../res/MyriadPro-Bold.otf');
 }
 .rank{
 
-  font-family: 'MyriadPro-Bold';
+  font-family: 'MyriadPro';
 
   background-color: rgba(255,255,255,0.5);
   margin: 15px 20px 15px 20px;
